@@ -73,6 +73,29 @@ public class Ex2 {
         //     System.out.println(num + " is an odd number.");
         // }
 
+        //Largest of three numbers
+        // int num1, num2, num3;
+        // System.out.print("Enter three numbers: ");  
+        // num1 = sc.nextInt();
+        // num2 = sc.nextInt();
+        // num3 = sc.nextInt();
 
+        // if(num1 >= num2 && num1 >= num3) {
+        //     System.out.println(num1 + " is the largest number.");
+        // } 
+        // else if(num2 >= num1 && num2 >= num3) {
+        //     System.out.println(num2 + " is the largest number.");
+        // } 
+        // else {
+        //     System.out.println(num3 + " is the largest number.");
+        // }
+
+    // Sum of n numbers
+    int a = 0;
+    for (int i=1;i<=1000;i++){
+        System.out.println(i);
+        a=a+i;
     }
+    System.out.println("The sum of first 1000 numbers is: " + a);
+}
 }
