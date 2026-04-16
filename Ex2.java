@@ -90,12 +90,22 @@ public class Ex2 {
         //     System.out.println(num3 + " is the largest number.");
         // }
 
-    // Sum of n numbers
-    int a = 0;
-    for (int i=1;i<=1000;i++){
-        System.out.println(i);
-        a=a+i;
+        //prime numbers between 1 and 100
+        for (int i=1; i<=100; i++){
+            boolean isPrime = true;
+            for (int j=2; j*j<=i; j++){
+                if (i%j == 0){
+                    isPrime = false;
+                    break;
+                }
+            }
+            if (isPrime){
+                System.out.println(i+" is a prime number.");
+            }
+            else{
+                System.out.println(i+" is not a prime number.");
+            }
+        }
+
     }
-    System.out.println("The sum of first 1000 numbers is: " + a);
-}
 }
