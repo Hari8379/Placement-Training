@@ -91,21 +91,28 @@ public class Ex2 {
         // }
 
         //prime numbers between 1 and 100
-        for (int i=1; i<=100; i++){
-            boolean isPrime = true;
-            for (int j=2; j*j<=i; j++){
-                if (i%j == 0){
-                    isPrime = false;
-                    break;
-                }
-            }
-            if (isPrime){
-                System.out.println(i+" is a prime number.");
-            }
-            else{
-                System.out.println(i+" is not a prime number.");
-            }
-        }
+        // for (int i=2; i<=100; i++){
+        //     boolean isPrime = true;
+        //     for (int j=2; j*j<=i; j++){
+        //         if (i%j == 0){
+        //             isPrime = false;
+        //             break;
+        //         }
+        //     }
+        //     if (isPrime){
+        //         System.out.println(i);
+        //     }
+        // }
+        
+        //Pattern Printing
+        // int n = 5;
+        // for (int i=n; i>=1; i--){
+        //     for (int j=1; j<=i; j++){
+        //         System.out.print("* ");
+        //     }
+        //     System.out.println();
+        // }
 
+        
     }
 }
