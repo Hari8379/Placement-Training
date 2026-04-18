@@ -54,12 +54,12 @@ public class Ex2 {
 
 
         //Age Calculator
-        // System.out.print("Enter your birth year: ");
-        // int a = sc.nextInt();
-        // System.out.print("Enter current year: ");
-        // int b = sc.nextInt();
-        // int age=b-a;
-        // System.out.println("Your age is: " + age);
+        System.out.print("Enter your birth year: ");
+        int a = sc.nextInt();
+        System.out.print("Enter current year: ");
+        int b = sc.nextInt();
+        int age=b-a;
+        System.out.println("Your age is: " + age);
 
         //Odd or Even
         

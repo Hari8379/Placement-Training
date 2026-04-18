@@ -13,21 +13,21 @@ public class Ex3 {
         // }
 
         //Celsius to Fahrenheit Converter - 2
-        // Scanner sc = new Scanner(System.in);
-        // System.out.print("How many Celsius values? ");
-        // int n = sc.nextInt();
+        Scanner sc = new Scanner(System.in);
+        System.out.print("How many Celsius values? ");
+        int n = sc.nextInt();
 
-        // float[] c = new float[n];
-        // for (int i = 0; i < c.length; i++) {
-        //     System.out.print("Enter Celsius value " + (i + 1) + ": ");
-        //     c[i] = sc.nextFloat();
-        // }
+        float[] c = new float[n];
+        for (int i = 0; i < c.length; i++) {
+            System.out.print("Enter Celsius value " + (i + 1) + ": ");
+            c[i] = sc.nextFloat();
+        }
 
-        // float[] f = new float[c.length];
-        // for (int i = 0; i < c.length; i++) {
-        //     f[i] = (c[i] * 9 / 5) + 32;
-        //     System.out.println(c[i] + "C =" + f[i] + "F");
-        // }
+        float[] f = new float[c.length];
+        for (int i = 0; i < c.length; i++) {
+            f[i] = (c[i] * 9 / 5) + 32;
+            System.out.println(c[i] + "C =" + f[i] + "F");
+        }
 
         // sc.close();
 
